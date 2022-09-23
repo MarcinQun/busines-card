@@ -27,7 +27,10 @@ body {
     padding: 32px;
 }
 
-.person {}
+.person {
+    display: flex;
+    align-items: flex-start;
+}
 
 .person__name {
 
@@ -41,8 +44,33 @@ body {
 
     font-size: 18px;
     color: #545454;
-    margin: 0;
+    margin: 0px;
     font-style: italic;
+}
+
+.person__description{
+    font-style: 16px;
+    line-height: 22px;
+    margin-top: 16px;
+
+}
+
+.person__description--with-margin{
+    margin-bottom: 22px;
+}
+
+.person__info{
+    margin-bottom: 24px;
+}
+
+.person__picture {
+
+    margin-right: 32px;
+}
+
+.person__link{
+   color: #E20613;
+   text-decoration: none;
 }
 
 .special {
